@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+*{
+    margin: 0;
+    padding: 1;
+}
+.sidebar{
+    font-size: 35px;
+    background-color: rgb(186, 186, 205);
+    height: 100vh;
+    font-family: 'Abril Fatface', cursive;
+    transition: transform 0.3s ease-in;
+    position: absolute;
+}
+.sidebar nav{
+    padding: 25px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 15px;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+    /* background-color: yellow; */
+    font-size: 20px;
+    width: 80vw;
+}
+.container{
+    display: flex;
+}
+.infocontainer{
+    /* background-color: deepskyblue; */
+    width: 70vw;
+    height: 50vh;
+    margin: 130px 130px;
+    display: flex;
+    justify-content: space-around;
+}
+.devinfo{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Crimson Text', serif;
+}
+.hello {
+    margin-top: 160px;
+    font-size: 40px;
+}
+
+.name{
+    font-size:50px ;
+    font-weight: bold;
+}
+
+.about{
+    font-size: 40px;
+}
+.moreabout{
+    margin-top: 20px;
+    font-size: 25px;
+    
+}
+.button{
+    margin-top: 26px;
+    font-size: 16px;
+}
+.btn {
+margin-top: 35px;
+padding: 10px;
+border-radius: 18px;
+color: white;
+background-color: rgb(38, 121, 169);
+font-weight: bold;
+font-size: 2em;
+margin:3px 15px;
+cursor: pointer;
+}
+.btn-smblog{
+    margin: 5px 95px;
+    font-size: 15px;
+    width: 120px;
+}
+.btn-sm{
+    margin: 5px 25px;
+    font-size: 15px;
+    width: 120px;
+}
+.btn:hover{
+    color:rgb(19, 133, 204);
+    background-color: white;
+}
+.devPic img {
+    margin-top: 140px;
+    width: 240px;
+    height: 30vh;
+}
+/* Contact-form */
+.contactform h1{
+    padding-bottom: 20px;
+    margin-left: 0px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.contactform form div{
+    padding: 8px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input{
+    /* width:19vw; */
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top:6px;
+    padding: 3px;
+}
+#emailHelp{
+    padding-top: 0;
+    margin: 0 15px;
+    font-size: 14px;
+    color: rgb(229, 178, 229);
+}
+.contactform{
+    /* padding: 0 144px; */
+    padding-left: 100px;
+    padding-top: 100px;
+    font-family: 'Crimson Text', serif;
+}
+#form-check{
+    flex-direction: row;
+
+}
+#form-check input{
+    width: 28px;
+    margin: 2px 0;
+}
+
+.blogContainer{
+    margin: 50px 50px;
+}
+h1{
+    margin: 5px 1.5em;
+    font-family: 'Acme', sans-serif;
+    font-size: 55px;
+}
+
+.blogItem h2{
+    margin: 5px 95px;
+    margin-top: 1.5em;
+    font-family: 'Roboto Slab', serif;
+}
+p{
+    margin: 5px 95px;
+    font-family: 'Crimson Text', serif;
+}
+.intro{
+    margin: 50px 50px;
+}
+.intro h2{
+    font-family: 'Roboto Slab', serif;
+    margin: 12px 12px;
+    
+}
+.intro p{
+    font-family: 'Crimson Text', serif;
+    margin: 12px 12px;
+}
+.skillContainer{
+    padding: 12px;
+}
+.skillItem{
+    font-family: 'Roboto Slab', serif;
+    align-items: center;
+    display: flex;
+}
+.skill{
+    margin-left: 170px;
+    position: absolute;
+    width: 273px;
+    height: 13px;
+    background-color: blue;
+    border: 2px solid black;
+}
+.seven5{
+
+    width: 200px;
+    background-color: rgb(42, 128, 42);
+}
+.fifty{
+    width: 130px;
+    background-color: yellowgreen;
+}
+.twenty5{
+    width: 60px;
+    background-color: lightgoldenrodyellow;
+}
+.thirty{
+    width: 75px;
+    background-color: orangered;
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.cross{
+    margin-left: 195px
+}
+.sidebarGo{
+    transform: translate(-443px);
+    position: absolute;
+}
+@media (max-width: 1615px) {
+    .devPic{
+        display: none;
+    }
+    /* .sidebar{
+        transform: translate(-443px);
+        position: absolute;
+    } */
+    .devinfo{
+        font-size: 12px;
+    }
+    .intro, .blogContainer, .contactform{
+        margin: 50px 6px;
+    }
+    .button{
+        font-size: 7px;
+    }
+}
